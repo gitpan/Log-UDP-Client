@@ -1,0 +1,50 @@
+{
+   "abstract" : "A simple way to send structured log messages via UDP",
+   "author" : [
+      "Robin Smidsr\u00c3\u00b8d <robin@smidsrod.no>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.102341, CPAN::Meta::Converter version 2.102400",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Log-UDP-Client",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : 0,
+            "Data::Serializable" : "v0.40.0",
+            "IO::Socket::INET" : 0,
+            "Moose" : 0,
+            "perl" : "5.006"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "English" : 0,
+            "JSON" : 0,
+            "Test::More" : 0,
+            "Time::HiRes" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/robinsmidsrod/Log-UDP-Client.git",
+         "web" : "http://github.com/robinsmidsrod/Log-UDP-Client"
+      }
+   },
+   "version" : "0.20.0"
+}
+
